@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <link rel="manifest" href="site.webmanifest">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+
+        <title>MassBrowser</title>
+        <!-- Global Site Tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-70379085-2"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments)};
+            gtag('js', new Date());
+
+            gtag('config', 'UA-70379085-2');
+        </script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+
+    <body>
+
+
+        <div class="container">
+            <div class="row">
+                <center> <img src="Logo2.png"  align="middle" alt="HTML5 Icon" style="width:300px;"></center>
+            </div>					
+
+            <div class="row title">
+                <h1 class="title" align="center" >MassBrowser</h1>
+                <i><h3 class="title" align="center">Fighting Internet Censorship in a Mass!</h3></i>
+                <!-- <h3 class="title" align="center">Unblocking the Web for the Masses, By the Masses</h3>-->
+                <!-- <p>Censorship circumvention tool</p> -->
+            </div>
+
+
+            <!-- TODO:
+- update download URLS
+-Add two videos 
+- Add technical report
+-->
+            <hr>
+
+            <div class="row">
+
+                <div class="twelve columns">
+                    <h2> What is MassBrowser?</h2> 
+                    <p>
+                        MassBrowser is a state-of-the-art system designed to circumvent Internet censorship. MassBrowser is <a href="https://github.com/SPIN-UMass/MassBrowser" target="_blank">open-source</a> and free-to-use. It has been designed and developed by the <a href="https://people.cs.umass.edu/~amir/Research.html" target="_blank">Secure, Private Internet (SPIN) Research Group</a> at the University of Massachusetts Amherst. 
+                        MassBrowser operates with the help of normal Internet users with open access to the Internet who   volunteer to help censored Internet users. </p>
+                    <p>
+                        You can reach us with your questions and feedback by emailing at <a href="mailto:massbrowser@cs.umass.edu" target="_blank">massbrowser@cs.umass.edu</a>.
+
+                    <p>Follow us on Twitter for updates
+                        <a href="https://twitter.com/massbrowser?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @massbrowser</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </p>
+
+
+
+                </div>
+            </div>
+            <hr>
+
+            <div class="row">
+                <div class="twelve columns">
+                    <h2> <mark>For Censored Users:</mark> How to Use MassBrowser</h2>
+
+                    <p> If you live in a censored country like China, you can use MassBrowser to bypass censorship. </p>
+
+
+
+                    <b>Installation Steps:</b> 
+                    <br>
+
+
+                    <u>Step 1: Install the Firefox Browser:</u> Our current installation wizard is designed for the Firefox browser, so you need to have Firefox installed. If you are an expert, you can easily set up Massbrowser for your preferred webbrowser. <br>
+
+                    <u>Step 2: Obtain an Invitation Code:</u> MassBrowser is currently in the beta release mode, so it is invitation-only. If you would like to be an early adopter, send us an email at <a href="mailto:massbrowser@cs.umass.edu" target="_blank">massbrowser@cs.umass.edu</a> so we send you an <i>invitation code</i>.
+                    <br>
+
+
+                    <u>Step 3: Install MassBrowser Client:</u> Download and install from the following links: 
+                    <ul>
+                        <li>
+                            <a href="https://github.com/SPIN-UMass/MassBrowser/releases/download/v0.0.9/MassBrowser-0.0.9.dmg">MassBrowser for Mac</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/SPIN-UMass/MassBrowser/releases/download/v0.0.9/MassBrowser.Setup.0.0.9.exe">MassBrowser for Windows</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/SPIN-UMass/MassBrowser/releases" target="_blank">Build for your OS</a>
+                        </li>
+                    </ul>
+                    <p>Watch this video on how to install and use MassBrowser (Coming Soon!)</p>
+
+
+                    <p>
+                        <b>Know the limitation of MassBrowser:</b> Due to certain optimizations that we need to perform for different websites, currently, MassBrowser can only be used to browse a <i>limited set of websites</i>, but not arbitrary websites! The list of currently supported websites includes popular websites like Facebook, Twitter, CNN, Google, and YouTube. You can also tunnel your <i>Tor</i> traffic through MassBrowser (if you do not know a working Tor bridge). We will continuously add support for new websites. 
+                    </p>
+
+                    <p>        
+                        <b>Know your privacy guarantees:</b> Using MassBrowser you will have <b>the same level of privacy as using public VPNs or public HTTPS proxies</b>. Therefore, the volunteer who is  proxying your traffic will know your IP address as well as the websites you are browsing. For HTTPS websites (e.g., any URL starting with "https://"), the volunteer proxy will <b>not</b> be able to see your passwords or other data that you exchange with those websites. This is not true for HTTP websites. Therefore, use MassBrowser as a replacement for public VPNs and HTTPS proxies. If you plan to do something sensitive on the Internet that makes you worried about your anonymity, use a software like Tor (your connections will be much slower on Tor) or tunnel Tor over MassBrowser. 
+
+                    </p>
+
+                    <p>        
+                        <b>Know the security of your local certificate:</b> During installation, MassBrowser asks you to install a <b>local</b> certificate in your Firefox browser.  This local certificate is required for MassBrowser to implement an essential optimization technique called CDNBrowsing (which is described in the geek's section). Note that the certificate is <i>locally created</i> in your browser, is unique for each client, and never leaves your computer. Therefore <b>no one, not even us, will be able to use that local certificate to eavesdrop your traffic</b>.  Make sure you do not share this local certificate  with others. You can simply remove the certificate at any time by going to your Firefox settings. 
+
+                    </p>
+
+
+
+
+
+
+                    <hr>
+
+
+                    <h2><mark>For Volunteers:</mark> How You Can Help Out</h2>
+                    <p> If you are living in a country with open Internet like US and European countries, we need your help to fight Internet censorship! MassBrowser relies on help from volunteers who share their open Internet access with users in censored countries for a good cause. If you'd like to volunteer, you need to install a software called MassBuddy on your computer. Installing MassBuddy is <strong>absolutely harmless</strong> to your privacy and safety, and you will have <strong>full control</strong> over how censored users will share your Internet (they can only use your computer to get to websites that you approve, like Facebook, Google, etc.). Also, recall that MassBrowser is <a href="https://github.com/SPIN-UMass/MassBrowser" target="_blank">open-source</a>. 
+                        Watch this video (Coming Soon!) on how you can become a Buddy!</p>
+                    <p>
+                        Sooo! If you'd like to help censored Internet users, download the MassBuddy software and become a Buddy:
+                    <ul>
+                        <li>
+                            <a href="https://github.com/SPIN-UMass/MassBrowser/releases/download/v0.0.8/MassBuddy-0.0.8.dmg">MassBuddy for Mac</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/SPIN-UMass/MassBrowser/releases/download/v0.0.8/MassBuddy.Setup.0.0.8.exe">MassBuddy for Windows</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/SPIN-UMass/MassBrowser/releases" target="_blank">Build from Source Code</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="row">
+                <div class="twelve columns">
+                    <h2> <mark>For Geeks:</mark> MassBrowser's Technical Description</h2>
+                    <p>
+                        MassBrowser is an academic censorship circumvention system. This <FONT 
+                                                                                               style="BACKGROUND-COLOR: #99ff99"> <a href="https://web.cs.umass.edu/publication/docs/2018/UM-CS-2018-003.pdf" target="_blank">Technical Report</a></FONT> describes the details of its design,  the ideas behind its blocking resistance, and it privacy and security guarantees. A shorter version of the technical description is followed. 
+                    </p>
+
+
+                    <h4>TL;DR Technical Description</h4>
+                    <p>
+                        Censorship circumvention tools traditionally work by relaying the user's traffic through proxy servers outside of the censoring region. The proxy servers have open access to the Internet and are able to retrieve the requested pages on behalf of the user. Unfortunately, this simple scheme has two downsides.
+                    <ul>
+                        <li> <strong>Proxy servers can be blocked by the censors.</strong> Since proxy servers have defined public IP addresses, censors can block access to the proxies by applying IP filtering at their border gateways. Even if the proxy IP addresses are not publicly announced, censors can gain access to the IP addresses by imitating censored users.</li>
+                        <li> <strong> Maintaining proxy servers.</strong> Circumvention systems must have enough infrastructure to handle the bandwidth of all its users. The number of users using circumvention systems is relatively high, considering entire nations such as China and Iran have censored access to the Internet. This imposes extremely high costs for maintaining proxy servers for the circumvention system providers.</li>
+                    </ul>
+                    </p>
+                <p>
+                    To provide a robust and cost-effective solution, we have designed MassBrowser. MassBrowser uses a number of different techniques to provide censorship circumvention which is hard to block by the censors, not too expensive to maintain and delivers performance comparable to that of traditional circumvention systems.
+                </p>
+                <h5 id="volunteer-relays"> Volunteer Relays </h5>
+                <p>
+                    Instead of relying solely on publicly hosted proxy servers, MassBrowser utilizes <em>volunteers</em> which we call <strong>MassBuddys</strong>. Volunteers are users residing outside the censored regions who are willing to help censored users gain open access to the Internet by allowing them to proxy their traffic through their devices. In concept, volunteer relays are very similar to traditional proxies, however they have two beneficial properties
+                <ol>
+                    <li>No single entity is responsible for providing all the necessary bandwidth needed to support censored users</li>
+                    <li>Volunteers may have changing and non-public IP addresses, making it more difficult for censors to block them using traditional methods</li>
+                </ol>
+
+                Volunteer-based systems are not a new concept. The largest anonymity system in use today, i.e., <a href="https://www.torproject.org/">Tor</a>, is run by volunteers. To answer to possible concerns volunteers may have, the MassBuddy client provides the volunteer with a range of options for limiting the bandwidth usage and even choosing websites they wish to allow.
+                </p>
+            <p>
+                Blocking volunteers is more difficult for censors than traditional public proxies, however it is far from perfect and censors may still block volunteer relays. A typical approach against censors used in many circumvention systems is to avoid announcing all available proxies (or volunteer relays) to the users. Similarly, in MassBrowser each client will only have access to a small number of all available relays. This way, even if the censors mimic benign users, they will only every be able to block a small portion of all available relays.
+            </p>
+            <p>
+
+            </p>
+
+            <h5>Backup Proxies and Domain Fronting</h5>
+            <p>
+                In the <a href="#volunteer-relays">Volunteer Relays</a> section we mentioned that each censored user will only have access to a small subset of all available volunteer relays. However, if the censors manage to block all the relays a particular user has access to, the user will be stuck with blocked relays and will be unable to use the system. The user cannot be assigned another non-blocked relay, since the censors would take advantage and start blocking more relays.
+            </p>
+            <p>
+                To mitigate this problem, the MassBrowser network has a number of public backup proxies which will be assigned to users if all the users available relays have been blocked. Of course, if we simply use a traditional proxy there is nothing keeping the censors from blocking those as well. Instead, we use a recently proposed technique called <strong>Domain Fronting</strong> to keep the proxies from being blocked.
+            </p>
+            <p>
+                <strong>Domain Fronting</strong> is a technique in which the proxy server is hosted behind a Content Delivery Network (CDN) and is accessed through the CDNs IP addresses in a way which avoids any unencrypted mentioning of the desired service (i.e. the proxy server). In order to block this proxy server, the censors would have to block access to any website hosted on that CDN which is a highly undesirable. You can learn more about Domain Fronting through the original paper linked below.
+            <ul>
+                <li><a href="http://www.icir.org/vern/papers/meek-PETS-2015.pdf">Blocking-resistant communication
+                    through domain fronting, Proceedings on Privacy Enhancing Technologies 2015</a></li>
+            </ul>
+            </p>
+        <p>
+            You might be thinking this seems great, why not make a circumvention system based solely on Domain Fronting? While Domain Fronting does make a very robust system against censors blocking proxies, it still requires a high maintenance cost. In fact, there already is a widely used Domain Fronting based system, named <a href="https://trac.torproject.org/projects/tor/wiki/doc/meek">meek</a>, deployed as a Pluggable Transport for Tor. In its approximately three years of operation, the total cost for operating meek's servers have reached over $50,000.
+        </p>
+
+        <h5>CDNBrowsing</h5>
+        <p>
+            <strong>CDNBrowsing</strong> is another recent technique in censorship circumvention which takes advantage of CDNs. Unlike Domain Fronting in which we access a proxy hosted behind a CDN, <strong>CDNBrowsing</strong> is used to directly access website content from CDNs without revealing to the censors what content is being accessed. You can read more about how CDNBrowsing works in the papers linked below.
+        <ul>
+            <li><a href="https://people.cs.umass.edu/~amir/papers/CacheBrowser.pdf">CacheBrowser: Bypassing Chinese Censorship without Proxies using Cached Content, ACM CCS 2015</a></li>
+            <li><a href="https://people.cs.umass.edu/~amir/papers/CDNReaper.pdf">Practical Censorship Evasion Leveraging Content Delivery Networks, ACM CCS 2016</a></li>
+        </ul>
+        </p>
+
+    <p>
+        CDNBrowsing can be used with virtually no extra cost as it accesses content directly without needing any hosted proxies. Similar to Domain Fronting, it is also unblockable by the censors. It's main disadvantage however is that it can only retrieve CDN hosted content. So on its own it is only suitable for websites which are completely hosted on CDNs. Even though many websites do satisfy this requirement, as of now the majority of websites only have their media content (e.g. images, videos,...) hosted on CDNs leaving their HTML pages inaccessible to CDNBrowsing systems.
+    </p>
+
+    <p>
+        While limited on its own, CDNBrowsing can prove to be hugely beneficial when used in conjunction with the other methods described above. Images, videos and other CDN hosted content are actually the bulk of most websites. Using CDNBrowsing techniques, MassBrowser obtains any CDN hosted content directly from CDN edge servers without going through any proxies or volunteer relays. This reduces the traffic load on volunteer relays, allowing them to serve more censored users with the same amount of used bandwidth, and also reduces the traffic on our backup proxy servers.
+    </p>
+
+    <h4>Want to contribute to the code?</h4>
+    <p>
+    MassBrowser's <a href="https://github.com/SPIN-UMass/MassBrowser" target="_blank">code</a> is available on GitHub. If you are a geek, we welcome your contribution to the code. 
+    </p>
+
+    <h5>Acknowledgment</h5>
+    This work is supported in part by the NSF CAREER grant CNS-1553301 and a 2015 Google Faculty Award.
+    </div>
+</div>
+
+
+</div>
+</body>
+</html> 

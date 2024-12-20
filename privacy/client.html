@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <link rel="manifest" href="site.webmanifest">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+
+        <title>MassBrowser</title>
+        <!-- Global Site Tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-70379085-2"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments)};
+            gtag('js', new Date());
+
+            gtag('config', 'UA-70379085-2');
+        </script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+
+    <body>
+
+
+        <div class="container">
+            <div class="row title">
+                <h1 class="title" align="center" >MassBrowser</h1>
+                <i><h3 class="title" align="center">Fighting Internet Censorship in a Mass!</h3></i>
+                <!-- <h3 class="title" align="center">Unblocking the Web for the Masses, By the Masses</h3>-->
+                <!-- <p>Censorship circumvention tool</p> -->
+            </div>
+
+
+            <div class="row">
+
+                <div class="twelve columns">
+                    <h2> MassBrowser Client Privacy Policy</h2> 
+                    <p>This Privacy Policy describes how the SPIN research group at UMass collects, uses, and shares informations provided to us through the MassBrowser Client software.</p>
+                    <p>By using the Service, you agree that your information will be handled as described by this Policy, and that your usage and any disputes over privacy are subject to this Policy and our Terms of Service ("Terms") which are incorporated by reference into this Policy.</p>
+
+                    <h4>Information we collect</h4>
+                    <ul>
+                      <li> 
+                          <strong>Unique Identifier:</strong>
+                          When you use the MassBrowser client for the first time you will be assigned a unique random identifier (UID). The identifier is used by the MassBrowser service in multiple places.
+                      </li>
+                      <li> 
+                        <strong>Session Details:</strong>
+                        Every time you connect to a MassBrowser Buddy you will create a new session. The session details (e.g. website content type) will be stored and associated with the UID of the client.
+                      </li>
+                      <li> 
+                        <strong>IP Address:</strong>
+                        Client IP addresses will be collected every time the Client is run, however only the last IP address will be associated with the Client’s UID (i.e, MassBrowser will forget the Client’s IP address history).
+                      </li>
+                      <li>
+                        <strong>Client website preferences and bandwidth usage:</strong>
+                        MassBrowser will keep record of the Client's website preferences (i.e, which websites it selects to relay through the MassBrowser network), and statistics related to the bandwidth usage for different websites. This information will be associated to the Client’s UID.
+                      </li>
+                      <li>
+                        <strong>Network NAT information:</strong>
+                        MassBrowser will collect information related to the NAT network a Client is behind, this information will be associated to the Client’s IP address but not it’s UID.
+                      </li>
+                    </ul>
+
+                      <h4>How we use information</h4>
+                      <ul>
+                          <li>MassBrowser uses the unique identifier (UID) to identify end users in the MassBrowser network. The UID is never associated with Personally Identifiable Information and is not shared with  third-party applications.</li>
+                          <li>MassBrowser collects the non-anonymized IP address which the Client is connected with. Depending on the type of NAT network the Client is behind it is often necessary for the Buddy to initiate a connection with the Client and a non-anonymized IP address is required for this purpose. MassBrowser will only store the latest IP address of the Client.</li>
+                          <li>Session details, website preferences, website bandwidth statistics, and network NAT information will be used to enhance the MassBrowser service by improving MassBrowser Client and Buddy matching process and identifying potentially malicious users. This information may also be used for research purposes. For such purposes, IP addresses will be anonymized and reported locations inferred from IP addresses will be no more accurate than city names.</li>
+                      </ul>
+
+                      <h4>Information visible to MassBrowser Buddies</h4>
+                      <p>
+                        The MassBrowser Client software will connect to one or multiple MassBrowser Buddies for the purpose of proxying traffic through their devices. MassBrowser Buddies are individuals with no legal relations to the MassBrowser system providers and have no obligations regarding the use of the information which they observe. MassBrowser Buddies will only see information related to the Clients which are connected to them. The following Client information is visible to the MassBrowser Buddies.
+                      </p>
+
+                      <ul>
+                       <li><strong>IP addresses: </strong>Non-anonymized Client IP addresses are visible to the Buddies for Clients which have connected to them.</li>
+                       <li><strong>Accessed websites and bandwidth: </strong> - MassBrowser Buddies will be able to observe the destinations being accessed by Client’s through their devices. The destinations will be visible as full domain names (e.g. edition.cnn.com)  but will not contain any path information (the Buddies will not observe the resource being accessed from edition.cnn.com). The Buddies will also observe the amount of bandwidth which a Client proxies through their device for each domain.</li>
+                       <li><strong>Website content for non-SSL websites: </strong>- The buddies will be able to observe the traffic being transferred through their device in plain text if the Client does not establish a secure SSL connection with the destination. For secure SSL connections, the traffic will be encrypted and uninterpretable by the Buddy.</li>
+                      </ul>
+                </div>
+            </div>
+        </div>
+</body>
+</html> 
